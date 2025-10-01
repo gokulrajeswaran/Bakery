@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { useCart } from "../cart/CartContext";
+import { useCart } from "../Cart/CartContext";
 
 export default function CategoryPage({ category: categoryProp }) {
   const params = useParams();
