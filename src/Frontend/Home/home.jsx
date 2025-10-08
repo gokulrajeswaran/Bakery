@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { useCart } from "../Cart/CartContext";   // <-- import cart hook
 
 const images = [
-  "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?auto=format&fit=crop&w=2560&q=80",
-  "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=2940&q=80",
-  "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?auto=format&fit=crop&w=2762&q=80",
+  "https://images.pexels.com/photos/1775031/pexels-photo-1775031.jpeg",
+  "https://images.pexels.com/photos/8599600/pexels-photo-8599600.jpeg",
+  "https://images.pexels.com/photos/4823096/pexels-photo-4823096.jpeg",
 ];
 
 export default function Home() {
